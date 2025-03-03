@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eunice Sison Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: red;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkblue;
+        }
+        footer {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>I’m Eunice Sison</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies & Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Eunice Sison Profile Picture" width="150">
+        <p>Hi! I'm Eunice Sison, a passionate web developer.</p>
+        <button onclick="showFunFact()">Click for Info!</button>
+        <p id="fun-fact"></p>
+    </section>
+    
+    <section id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li><strong>Coding:</strong> I enjoy building web applications.</li>
+            <li><strong>Reading:</strong> I love reading tech blogs and fiction books.</li>
+            <li><strong>Gaming:</strong> I spend my free time playing strategy and adventure games.</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Info</h2>
+        <p>Email: <a href="mailto:eunicesison1007@gmail.com">eunicesison1007@gmail.com</a></p>
+        <p>Social Media: <a href="https://www.facebook.com/eunice.sison.27/" target="_blank">Facebook</a> | <a href="#" target="_blank">GitHub</a></p>
+    </section>
+    
+    <footer>
+        &copy; 2025 Eunice Sison
+    </footer>
+
+    <script>
+        function showFunFact() {
+            document.getElementById('fun-fact').textContent = "I am interested with technologies!";
+        }
+    </script>
+</body>
+</html>
