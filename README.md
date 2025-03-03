@@ -16,9 +16,6 @@ This is a personal portfolio website for **Eunice Sison**, showcasing an introdu
 - 📧 **Contact Information & Social Media Links**
 - 📌 **Fixed Footer for Consistency**
 
-## 📸 Screenshots
-![Homepage Screenshot](#) *(Add a screenshot URL here)*
-
 ## 🛠️ Technologies Used
 - **HTML5**
 - **CSS3**
